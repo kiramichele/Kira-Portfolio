@@ -313,7 +313,7 @@ function Tag({ children }: { children: React.ReactNode }) {
   );
 }
 
-function Card({ item, i }) {
+function Card({ item, i }: { item: Item; i: number }) {
   const [hover, setHover] = useState(false);
   return (
     <div
@@ -347,7 +347,7 @@ function Card({ item, i }) {
         {item.blurb}
       </p>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
-        {item.stack.map((s) => (
+        {item.stack.map((s: string) => (
           <Tag key={s}>{s}</Tag>
         ))}
       </div>
