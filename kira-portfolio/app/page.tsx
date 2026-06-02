@@ -26,7 +26,7 @@ const DEV = [
         name: "Commit",
         blurb: "AP CSP learning platform with in-browser Python execution, AI hints, and a teacher dashboard.",
         stack: ["Next.js", "FastAPI", "Supabase", "Judge0", "Anthropic API"],
-        link: "https://committocode.app",
+        link: "https://committocode.netlify.app",
       },
       {
         name: "Stardrop",
