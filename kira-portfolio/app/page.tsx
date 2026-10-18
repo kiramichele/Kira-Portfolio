@@ -123,6 +123,7 @@ const CURRICULUM = [
         name: "PyPath",
         blurb: "Interactive Python curriculum — 37 files across 5 units.",
         stack: ["Python", "HTML"],
+        link: "https://pypath.netlify.app/",
       },
       {
         name: "Personal Finance Fundamentals",
@@ -134,155 +135,79 @@ const CURRICULUM = [
         blurb: "Client course covering the full precalc sequence.",
         stack: ["Curriculum design"],
       },
+      {
+        name: "JavaScript Fundamentals Interactive Coding Activity",
+        blurb: "A self-grading, in-browser JavaScript coding activity with instant feedback and error-specific debugging hints. Covers variables, math operations, strings, and print statements. No setup required.",
+        stack: ["JavaScript", "HTML"],
+        link: "https://javascriptbeginnerlessons.netlify.app/",
+      },
+      {
+        name: "Build It Right — Game Design Branching Scenario",
+        blurb: "A scenario-based learning activity for game design students. Learners navigate three real Unity project decisions with immediate feedback and design principle reinforcement on every choice.",
+        stack: ["Instructional Design", "Unity"],
+        link: "https://kirashinnportfolio.com/branching-scenario",
+      },
     ],
   },
   {
     group: "Programs & prep",
     items: [
       {
-        name: "AP CSP Curriculum",
-        blurb: "Standards-aligned lessons and exercises built for Commit.",
-        stack: ["Curriculum design"],
+        name: "AP CSP — Complete Python Curriculum",
+        blurb: "A full 102-day AP Computer Science Principles curriculum. Includes interactive slide decks, HTML lessons for all 6 units, a 10-tool exam prep suite, and a Create PT scaffold with a live rubric quality checker.",
+        stack: ["Python", "Curriculum design"],
+        link: "https://shinneducation.com/product/ap-computer-science-principles-complete-python-curriculum-bundle-102-days/",
+      },
+      {
+        name: "IST — Complete Interactive Curriculum",
+        blurb: "A full-semester Introduction to Software Technology curriculum across 9 units with 18 browser-based activities including a desktop simulator, PC builder, CSS playground, and a 5-room escape room.",
+        stack: ["HTML", "Curriculum design"],
+        link: "https://shinneducation.com/product/introduction-to-software-technology-complete-interactive-curriculum-9-units/",
       },
       {
         name: "UCA Game Developer Prep",
         blurb: "Exam-prep suite for the Unity Certified Associate pathway.",
         stack: ["Unity", "C#"],
+        link: "https://ucagamedev.com",
       },
       {
         name: "Writing Monitor",
         blurb: "Chrome extension + React teacher dashboard for tracking student writing.",
         stack: ["Chrome Extension", "React", "Supabase"],
       },
+      {
+        name: "Training Needs Analysis Report",
+        blurb: "A formal Training Needs Analysis based on real student performance data from Georgia Cyber Academy. Includes a full Kirkpatrick Level 1–4 evaluation plan with measurable success criteria.",
+        stack: ["Instructional Design", "Kirkpatrick Model"],
+        link: "/downloads/needs-analysis-final.docx",
+      },
     ],
   },
 ];
 
-const DESIGN = [
+const MATH = [
   {
-    group: "Brand identity",
+    group: "Data science",
     items: [
       {
-        name: "Solène",
-        blurb: "Complete luxury-lifestyle brand identity suite — palette, type system, logo lockups, and usage guidelines.",
-        stack: ["HTML", "Brand Design"],
-        link: "https://design.kirashinn.dev/solene",
+        name: "Steam Farming & Life Sim Market Analysis",
+        blurb: "End-to-end data science project analyzing 3,680 Steam games. Covers API scraping, data cleaning, and statistical testing — including a one-sample t-test confirming Stardew Valley as a genre outlier (t = −41.91, p < 0.001).",
+        stack: ["Python", "Statistics", "Data Viz"],
+        link: "https://steam-analysis-dashboard.netlify.app/",
+        github: "https://github.com/kiramichele/steam-analysis",
       },
       {
-        name: "Flowr",
-        blurb: "High-conversion SaaS landing page with organic typography and hero animations.",
-        stack: ["HTML", "CSS", "JS"],
-        link: "https://design.kirashinn.dev/flowr",
+        name: "US Education Outcomes: What Predicts Student Success?",
+        blurb: "Interactive Tableau dashboard analyzing NAEP scores across all 50 states. Finds poverty rate explains 68% of score variation (R² = 0.68) — nearly 5× more than per-pupil spending alone.",
+        stack: ["Tableau", "Regression", "Data Viz"],
+        link: "https://public.tableau.com/app/profile/kira.shinn3500/viz/USEducationOutcomesAnalysis/USEducationOutcomesWhatActuallyPredictsStudentSuccess",
       },
       {
-        name: "Axiom 2026",
-        blurb: "Full visual language for a tech/math conference — keynote templates, banner, and digital badge in a dark gold system.",
-        stack: ["HTML", "Event Design"],
-        link: "https://design.kirashinn.dev/axiom",
-      },
-      {
-        name: "Logo Work",
-        blurb: "Ten marks across ten industries — wordmarks, lettermarks, monograms, pictorials, and combination marks.",
-        stack: ["Logo Design"],
-        link: "https://design.kirashinn.dev/logo-work",
-      },
-    ],
-  },
-  {
-    group: "Brand systems",
-    items: [
-      {
-        name: "Vantex",
-        blurb: "Full B2B SaaS brand system — color ratios, type scale, logo usage, voice, UI components, and do/don't rules.",
-        stack: ["HTML", "Brand Guidelines"],
-        link: "https://design.kirashinn.dev/vantex-brand-guide",
-      },
-      {
-        name: "Arcen",
-        blurb: "Light, minimal brand identity for a B2B fintech — warm paper tones, Libre Baskerville, amber accents.",
-        stack: ["HTML", "Brand System"],
-        link: "https://design.kirashinn.dev/arcen-brand-guide",
-      },
-      {
-        name: "Vantex Deck",
-        blurb: "8-slide PowerPoint template built programmatically to match the Vantex brand exactly.",
-        stack: ["PPTX", "PptxGenJS"],
-        link: "https://design.kirashinn.dev/vantex-ppt",
-      },
-    ],
-  },
-  {
-    group: "Slide decks",
-    items: [
-      {
-        name: "Pitch Deck Collection",
-        blurb: "Two interactive HTML pitch decks — a cyberpunk game pitch (NEON RIFT) and a beverage startup pitch.",
-        stack: ["HTML", "CSS", "Interactive"],
-        link: "https://kirashinn.dev/slide-decks",
-      },
-      {
-        name: "CS Keynote",
-        blurb: "9-slide education conference keynote — warm terracotta, Georgia serif, story-driven structure.",
-        stack: ["HTML", "PowerPoint"],
-        link: "https://design.kirashinn.dev/cs-keynote",
-      },
-    ],
-  },
-  {
-    group: "Print & document",
-    items: [
-      {
-        name: "Brochure Collection",
-        blurb: "Trifold brochures and campaign materials across six brands, each with real photography and print-ready layouts.",
-        stack: ["Print Design", "Campaign"],
-        link: "https://design.kirashinn.dev/fernwood-co-brochure",
-      },
-      {
-        name: "Durable Human",
-        blurb: "3-page editorial PDF spec for a health & longevity brand — dark charcoal system with scalable templates.",
-        stack: ["HTML", "PDF", "Brand System"],
-        link: "https://design.kirashinn.dev/durable-human",
-      },
-      {
-        name: "Infographic Collection",
-        blurb: "Three HTML infographics across contrasting aesthetics — editorial, geometric, and playful card layouts.",
-        stack: ["HTML", "Data Viz"],
-        link: "https://design.kirashinn.dev/virtual-lessons-principles",
-      },
-      {
-        name: "Product Catalogues",
-        blurb: "Full-spec catalogues for fictional industrial (Ironhold) and scientific (Meridian) suppliers.",
-        stack: ["HTML", "Print Design"],
-        link: "https://design.kirashinn.dev/ironhold-catalogue",
-      },
-    ],
-  },
-  {
-    group: "Posters & social",
-    items: [
-      {
-        name: "WCS Poster",
-        blurb: "Concert poster redesign for the Wilmington Choral Society's 75th anniversary — refined editorial, warm gold on near-black.",
-        stack: ["HTML", "Real Client"],
-        link: "https://design.kirashinn.dev/wcs-poster",
-      },
-      {
-        name: "Ironhold Billboard",
-        blurb: "Highway billboard and poster brand extension — diagonal orange slash, Barlow Condensed, two formats.",
-        stack: ["HTML", "Billboard"],
-        link: "https://design.kirashinn.dev/ironhold-billboard",
-      },
-      {
-        name: "Launch Cards",
-        blurb: "Branded launch cards across four brands, each matching its own visual identity.",
-        stack: ["Social", "Brand"],
-        link: "https://design.kirashinn.dev/launch-cards",
-      },
-      {
-        name: "Business Card Collection",
-        blurb: "Three brands, three design languages, all at 3.5\" × 2\" — CMYK-ready with full print spec.",
-        stack: ["Print Design", "CMYK"],
-        link: "https://design.kirashinn.dev/business-cards",
+        name: "Customer Churn Predictor",
+        blurb: "End-to-end ML pipeline on 7,032 real telecom customers. Compares Logistic Regression vs Random Forest, identifies top churn drivers via feature importance analysis, and deploys as a live interactive prediction tool. ROC-AUC: 0.835.",
+        stack: ["Python", "scikit-learn", "Streamlit"],
+        link: "https://kiramichele-customer-churn-predictor.streamlit.app/",
+        github: "https://github.com/kiramichele/churn-simulator",
       },
     ],
   },
@@ -293,6 +218,7 @@ type Item = {
   blurb: string;
   stack: string[];
   link?: string;
+  github?: string;
 };
 
 function Tag({ children }: { children: React.ReactNode }) {
@@ -351,13 +277,32 @@ function Card({ item, i }: { item: Item; i: number }) {
           <Tag key={s}>{s}</Tag>
         ))}
       </div>
+      {item.github && (
+        <a
+          href={item.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={(e) => e.stopPropagation()}
+          style={{
+            display: "inline-block",
+            marginTop: "0.9rem",
+            fontSize: "0.85rem",
+            fontWeight: 700,
+            color: PALETTE.rose,
+            textDecoration: "none",
+          }}
+        >
+          GitHub ↗
+        </a>
+      )}
     </div>
   );
 }
 
 export default function Portfolio() {
   const [tab, setTab] = useState("dev");
-  const data = tab === "dev" ? DEV : tab === "curriculum" ? CURRICULUM : DESIGN;
+  const data =
+    tab === "dev" ? DEV : tab === "curriculum" ? CURRICULUM : MATH;
 
   return (
     <div
@@ -414,8 +359,10 @@ export default function Portfolio() {
         <div
           style={{
             display: "inline-flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
             background: PALETTE.creamDeep,
-            borderRadius: "999px",
+            borderRadius: "26px",
             padding: "0.35rem",
             border: `1.5px solid #fff`,
             boxShadow: `inset 0 1px 4px ${PALETTE.inkSoft}22`,
@@ -424,7 +371,7 @@ export default function Portfolio() {
           {[
             ["dev", "Development"],
             ["curriculum", "Curriculum"],
-            ["design", "Design"],
+            ["math", "Math & Data"],
           ].map(([key, label]) => (
             <button
               key={key}
@@ -434,8 +381,8 @@ export default function Portfolio() {
                 cursor: "pointer",
                 fontFamily: "inherit",
                 fontWeight: 700,
-                fontSize: "0.98rem",
-                padding: "0.65rem 1.6rem",
+                fontSize: "clamp(0.88rem, 2.6vw, 0.98rem)",
+                padding: "0.65rem clamp(1rem, 3vw, 1.6rem)",
                 borderRadius: "999px",
                 color: tab === key ? PALETTE.ink : PALETTE.inkSoft,
                 background: tab === key ? "#fff" : "transparent",
